@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Multi AI Chat",
+    "slug": "multi-ai-chatbot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.multiaiChat.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0F"
+      },
+      "package": "com.multiaiChat.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "multi-ai-chat",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
